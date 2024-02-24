@@ -26,11 +26,6 @@ public abstract class Entity
         return obj.GetType() == GetType() && Equals((Entity)obj);
     }
 
-    private bool Equals(Entity other)
-    {
-        return _id.Equals(other._id);
-    }
-
     public override int GetHashCode()
     {
         return _id.GetHashCode();
@@ -38,12 +33,10 @@ public abstract class Entity
     
     public static bool operator ==(Entity? left, Entity? right)
     {
-        if (Equals(left, null))
-            return (Equals(right, null));
-        return left.Equals(right);
+        return Equals(left, null) ? Equals(right, null) : left.Equals(right);
     }
     
-    public static bool operator !=(Entity left, Entity right)
+    public static bool operator !=(Entity? left, Entity? right)
     {
         return !(left == right);
     }

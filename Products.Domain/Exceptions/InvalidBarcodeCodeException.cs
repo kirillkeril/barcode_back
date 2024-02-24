@@ -1,6 +1,8 @@
-﻿namespace Products.Domain.Exceptions;
+﻿using Products.Domain.SeedWork;
 
-public class InvalidBarcodeControlSumException : Exception
+namespace Products.Domain.Exceptions;
+
+public class InvalidBarcodeControlSumException : DomainException
 {
     public InvalidBarcodeControlSumException() : base("Неверная контрольная сумма") {}
 }

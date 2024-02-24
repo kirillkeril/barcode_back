@@ -1,6 +1,8 @@
-﻿namespace Products.Domain.Exceptions;
+﻿using Products.Domain.SeedWork;
 
-public class WrongBarcodeFormatException : Exception
+namespace Products.Domain.Exceptions;
+
+public class WrongBarcodeFormatException : DomainException
 {
     public WrongBarcodeFormatException() : base("Неверный формат штрих-кода") {}
 }

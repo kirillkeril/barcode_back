@@ -5,8 +5,8 @@ namespace Products.BL;
 public interface IProductRepository
 {
     public Task<IEnumerable<Product>> GetAll();
-    public Task<Product?> GetById(Guid id);
+    public Task<Product?> GetById(string id);
     public Task<Product> Create(Product product);
-    public Task<Product?> Update(Guid id, string? name, string? barcode);
-    public Task Delete(Guid id);
+    public Task<Product?> Update(string id, string? name, string? barcode);
+    public Task Delete(string id);
 }

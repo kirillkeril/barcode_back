@@ -1,0 +1,15 @@
+﻿@using Products.Domain.AggregateModels.Product
+@using Microsoft.AspNetCore.Components.Web
+@model IEnumerable<Product>
+
+@{
+    ViewData["Title"] = "Products list";
+}
+<div>
+    <h1>Список продуктов</h1>
+    @foreach (var p in Model)
+    {
+        <div>@p.Name</div>
+        <a asp-action="Update" asp-route-id="@p.Id">Редактировать</a> 
+    }
+</div>

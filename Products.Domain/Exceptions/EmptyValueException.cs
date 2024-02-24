@@ -1,6 +1,8 @@
-﻿namespace Products.Domain.Exceptions;
+﻿using Products.Domain.SeedWork;
 
-public class EmptyValueException : Exception
+namespace Products.Domain.Exceptions;
+
+public class EmptyValueException : DomainException
 {
     public EmptyValueException() : base("Имя не может быть пустым") { }
 }

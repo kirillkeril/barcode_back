@@ -6,8 +6,7 @@ namespace Products.Infrastructure.Models;
 public class ProductModel
 {
     [BsonId]
-    [BsonRepresentation(BsonType.ObjectId)]
-    public Guid Id { get; set; }
+    public string Id { get; set; }
     
     [BsonElement("name")]
     public string Name { get; set; }
@@ -20,7 +19,7 @@ public class ProductModel
         Name = name;
         Barcode = barcode;
     }
-    public ProductModel(Guid id, string name, string barcode)
+    public ProductModel(string id, string name, string barcode)
     {
         Id = id;
         Name = name;

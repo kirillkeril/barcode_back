@@ -1,0 +1,16 @@
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\bin\Debug\net8.0\Products.BL.deps.json
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\bin\Debug\net8.0\Products.BL.dll
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\bin\Debug\net8.0\Products.BL.pdb
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\bin\Debug\net8.0\Products.Domain.dll
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\bin\Debug\net8.0\Products.Domain.pdb
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\Products.BL.csproj.AssemblyReference.cache
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\Products.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\Products.BL.AssemblyInfoInputs.cache
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\Products.BL.AssemblyInfo.cs
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\Products.BL.csproj.CoreCompileInputs.cache
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\Products.BL.sourcelink.json
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\Products.086FC03E.Up2Date
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\Products.BL.dll
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\refint\Products.BL.dll
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\Products.BL.pdb
+C:\Users\kiril\RiderProjects\Barcode\Products.BL\obj\Debug\net8.0\ref\Products.BL.dll

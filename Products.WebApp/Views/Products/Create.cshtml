@@ -1,0 +1,24 @@
+﻿@model CreateProductViewModel
+
+<header>
+    <h1>Создать</h1>
+</header>
+<main>
+    <form method="post" asp-action="Create">
+        <label for="name">
+            <span>Наименование</span>
+            <input id="name" asp-for="Model.Name">
+        </label>
+        <label for="barcode">
+            <span>Штрих-код</span>
+            <input id="barcode" asp-for="Model.Barcode">
+        </label>
+        <button type="submit">Создать</button>
+        <footer>
+            @foreach (var e in Model.Messages)
+            {
+                <span>@e</span>
+            }
+        </footer>
+    </form>
+</main>

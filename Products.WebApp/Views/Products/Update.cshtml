@@ -1,0 +1,35 @@
+﻿@model ProductViewModel?
+
+@{
+}
+
+<div>
+    @if (@Model != null)
+    {
+        <header>
+            <h2>Наименование: @Model.Name</h2>
+            <span>Код штрих-кода: @Model.Barcode</span>
+        </header>
+        <main>
+            <header>
+                <h3>Редактировать</h3>
+            </header>
+            <form method="post" asp-action="Update">
+                <label for="name">
+                    <input id="name" asp-for="Name" placeholder="Наименование">
+                </label>
+                <label for="barcode">
+                    <input id="barcode" asp-for="Barcode" placeholder="Штрих-код">
+                </label>
+                <button asp-action="Update">Обновить</button>
+            </form>
+        </main>
+    }
+    else
+    {
+        <header>
+            <h1>Упс!</h1>
+        </header>
+        <main>Ничего не найдено. Проверьте запрос</main>
+    }
+</div>
